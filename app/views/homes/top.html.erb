@@ -1,0 +1,24 @@
+<div class="container">
+  <%= flash[:notice] %>
+  <div class="row">
+
+
+  <div class="col-md-6 offset-md-3">
+
+<h1>welcome to<i class="fas fa-book"></i> Bookers !!</h1>
+<p>In<i class="fas fa-book"></i> Bookers,</p>
+<p>you can share and exchange your opinions , inpressions , and emotions
+
+about various books!</p>
+
+<div>
+<%= link_to "Log in", new_user_session_path,class: "btn btn-info w-75 mt-2" %>
+</div>
+<div>
+<%= link_to "Sign up",new_user_registration_path,class: "btn btn-success w-75 mt-2" %>
+</div>
+
+</div>
+</div>
+</div>
+
